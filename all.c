@@ -45,7 +45,7 @@ int main() {
         fclose(file);
         printf("Add another student? [Enter 1 for Yes, 0 for No]: ");
         scanf("%d", &addMore);
-        getchar(); // to consume the newline character after scanf
+        getchar(); 
 
     } while (addMore == 1);
 
